@@ -1,0 +1,116 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Mon Aug 28 14:30:59 2023
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   E:\Assessment\SRC\data_loader_wdi.ctl
+Data File:      SRC/WDIData.csv
+  Bad File:     E:\Assessment\SRC\WDIData.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MAIN_WDI_TABLE, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+"COUNTRY_NAME"                      FIRST     *   ,  O(") CHARACTER            
+"COUNTRY_CODE"                       NEXT     *   ,  O(") CHARACTER            
+"INDICATOR_NAME"                     NEXT     *   ,  O(") CHARACTER            
+"INDICATOR_CODE"                     NEXT     *   ,  O(") CHARACTER            
+"YR_1960"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1961"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1962"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1963"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1964"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1965"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1966"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1967"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1968"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1969"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1970"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1971"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1972"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1973"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1974"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1975"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1976"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1977"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1978"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1979"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1980"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1981"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1982"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1983"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1984"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1985"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1986"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1987"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1988"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1989"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1990"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1991"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1992"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1993"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1994"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1995"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1996"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1997"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1998"                            NEXT     *   ,  O(") CHARACTER            
+"YR_1999"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2000"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2001"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2002"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2003"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2004"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2005"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2006"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2007"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2008"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2009"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2010"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2011"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2012"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2013"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2014"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2015"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2016"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2017"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2018"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2019"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2020"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2021"                            NEXT     *   ,  O(") CHARACTER            
+"YR_2022"                            NEXT     *   ,  O(") CHARACTER            
+
+value used for ROWS parameter changed from 250 to 60
+
+Table MAIN_WDI_TABLE:
+  393148 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                1037160 bytes(60 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:        393148
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Aug 28 14:30:59 2023
+Run ended on Mon Aug 28 14:31:08 2023
+
+Elapsed time was:     00:00:09.33
+CPU time was:         00:00:00.37
