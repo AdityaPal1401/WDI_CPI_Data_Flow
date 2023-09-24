@@ -1,5 +1,5 @@
 # WDI_CPI_Data_Flow
-Project Assignment
+This project involves:
 
 1) Create mandatory tables first as provided in /SRC/CREATE_WDI and /SRC/CREATE_CPI
 
